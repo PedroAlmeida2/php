@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(/atividade/img/back.jpg);
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-container .msg{
+    width: 700px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 20px;
+}
+
+.main-wrapper{
+    border-radius: 15px;
+    box-shadow: 0px 10px  20px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.833);
+    width: 380px;
+    height: 480px;
+}
+
+
+.main-wrapper form h2{
+    color: white;
+    margin: 20px 0 40px;
+}
+
+.main-wrapper form .log{
+    padding: 5px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgb(200, 176, 130);
+}
+
+.main-wrapper form .log::placeholder{
+    color: rgba(0, 0, 0, 0.751);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.main-wrapper form .env{
+    padding: 6px;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    margin-bottom: 10px;
+}
+
+.main-wrapper form .env:hover{
+    background-color: rgba(1, 255, 1, 0.429);
+    transition-duration: 0.5s;
+}
+
+.main-wrapper form h3{
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+
+.main-wrapper form a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(1, 255, 1, 0.429);
+}
+
+.main-wrapper form a:hover{
+    text-decoration: underline;
+}   
